@@ -1,0 +1,187 @@
+@media (max-width: 1199px) {
+ .container {
+	max-width: 800px;
+ }
+ .header-mobile {
+ 	align-self: flex-end;
+ 	margin-bottom: 10px;
+ } 
+ 
+ .features-item {
+ 	justify-content: space-between;
+ }
+ 
+ .action-title h2 {
+	font-size: 35px;
+	text-align: center;
+ }
+.new-price {
+	font-size: 25px;
+ }
+.old-price {
+	font-size: 17px;
+ }
+ .action-main {
+ 	justify-content: space-between;
+
+ }
+ .price-bottom {
+ 	flex-basis: 40%;
+ }
+}
+
+@media (max-width: 991px) {
+ .container {
+	max-width: 700px;
+ }
+}
+
+@media (max-width: 768px) {
+ .container {
+	max-width: 100%;
+	padding: 0 30px;
+ }
+ .header-phone {
+ 	font-size: 19px;
+ }
+ .main_title {
+	font-size: 30px;
+ }
+ .features-subtitle h3 {
+ 	font-size: 25px;
+ }
+ .features-arrow {
+ 	top: 25px;
+ }
+ .product-certification {
+ 	flex-direction: column-reverse;
+ 	align-items: center;
+ }
+ .certification-details img {
+ 	display: none;
+ }
+.certification-title {
+	padding-bottom: 50px;
+	font-size: 26
+}
+.certification {
+	margin-top: 20px;
+}
+.action-bottom-arrow {
+	display: none;
+}
+}
+@media (max-width: 668px) {
+	.difference-chairs p {
+		font-size: 13px;
+	}
+	.ordinary-chairs img {
+		display: none;
+	}
+	.frameless-chairs img {
+		display: none;
+	}
+}
+@media (max-width: 576px) {
+	
+ .main_title {
+	font-size: 25px;
+	text-align: center;
+ }
+ .main_subtitle {
+ 	font-size: 18px;
+ 	text-align: center;
+ }
+ .header-phone {
+ 	font-size: 16px;
+ }
+ .header-feedback {
+ 	font-size: 12px;
+ }
+ .header-form {
+	align-self: center;
+ }
+ .features-title {
+ 	font-size: 27px;
+ 	margin-bottom: 10px;
+ 	
+ }
+ .features-item {
+ 	flex-direction: column;
+ 	align-items: center;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ }
+  .vice-versa {
+ 	flex-direction: column-reverse;
+  }
+ 
+ .features-arrow {
+ 	display: none;
+ }
+ .features-subtitle h3 {
+ 	font-size: 20px;
+ 	text-align: center;
+ }
+  .features-subtitle {
+  	margin-bottom: 10px;
+ }
+  .features-subtitle p {
+ 	font-size: 15px;
+ 	text-align: center;
+ }
+
+ .actiontwo-price-top {
+ 	display: none;
+ }
+ 
+ .action-top {
+ 	justify-content: center;
+ }
+ .action-title {
+ 	text-align: center;
+ }
+ .action-subtitle {
+ 	font-size: 22px;
+ 	text-align: center;
+ }
+ .gift {
+ 	 margin-right: 0;
+ }
+ .statistics-item {
+ 	justify-content: space-between;
+ 	align-items: center;
+    margin: 0; 
+ }
+.form-bottom-arrow {
+	display: none;
+}
+.price-bottom {
+	flex-basis: 100%;
+	align-items: flex-start;
+}
+.logo-footer {
+	display: none;
+	
+}
+}
+@media (max-width: 446px) {
+	.chairs {
+		display: none;
+	}
+	.difference-title {
+		font-size: 18px;
+	}
+
+}
+@media (max-width: 335px) {
+	.container {
+		max-width: 100%;
+		padding: 0 10px;
+		
+	}
+	.main-form {
+		width: 280px;
+	}
+	 
+}

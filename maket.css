@@ -1,0 +1,737 @@
+
+* {
+	box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    background-color: white;
+   /* display: flex;
+    flex-direction: column;*/
+
+}
+html {
+	 font-size: 10px;
+
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+*img {max-width: 100%;}
+
+
+/*wrapper*/ 
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 100px;
+	padding-bottom: 5px;
+}
+
+.header-phone {
+	text-decoration: none;
+	font-size: 24px;
+	color: rgba(94,94,94,255);
+	font-weight: bold;
+}
+.header-feedback {
+	color: rgba(88,146,166,255);
+	font-size: 13px;
+}
+.header-mobile {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+}
+
+/*main*/
+
+.main {
+	background: url(/home/yulia/git/maket/img/крісло1.png) no-repeat center center;
+	background-size: cover;
+	text-align: right;
+	padding-top: 80px;
+	padding-bottom: 60px;
+	margin-bottom: 75px;
+	
+}
+.main-header {
+	display: flex;
+	flex-direction: column;
+}
+
+.header-form {
+	align-self: flex-end;
+
+}
+.main_title {
+	font-size: 41px;
+	margin-bottom: 15px;
+	
+}
+.main_subtitle {
+	font-size: 27px;
+	color: rgba(88,146,166,255);
+
+}
+
+.main-form {
+    background: white;
+    margin-top: 60px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+}
+.main-form h2 {
+	font-size:  20px;
+	color: rgba(88,146,166,255);
+	margin-bottom: 10px;
+	padding-top: 37px;
+}
+.main-form span {
+	font-size:  12px;
+	color: rgba(0,0,0,255);
+}
+.forming {
+	margin-top: 15px;
+	padding-bottom: 37px;
+}
+
+.main-form-tel {
+	margin-bottom: 15px;
+}
+.btn {
+    color: rgba(255,255,255,255);
+    text-transform: uppercase;
+    background-color: #5ea5bd;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+     outline: none;
+     transition: all 0,5s;
+}
+.btn:hover {
+ opacity: 0.7;
+  transform: scale(1.1);
+}
+ .tel {
+    color: rgba(156,156,156,255);
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid rgba(156,156,156,255);
+    border-radius: 20px;
+    padding: 10px 30px;
+     outline: none;
+ }
+ .tel:focus {
+ 	border: 1px solid rgba(156,156,156,255);
+ 	box-shadow: 1px 1px 10px rgba(0,0,0,0.4);
+ }
+
+/*features*/
+
+ .features-title {
+ 	text-align: center;
+ 	font-size: 36px;
+ 	color: rgba(83,83,83,255);
+ 	margin-bottom: 55px;
+ }
+ .features-item {
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+ 	padding-top: 40px;
+ 	padding-bottom: 40px;
+ }
+ 
+ .features-subtitle-second {
+ 	text-align: right;
+ }
+ .features-subtitle h3 {
+ 	font-size: 30px;
+ 	color: 	rgba(104,176,201,255);
+ }
+.features-subtitle p {
+	font-size: 18px;
+	color: rgba(83,83,83,255);
+	line-height: 23px;
+
+}
+.features-arrow {
+	text-align: center;
+	position: relative;
+	top: 45px;
+}
+
+
+/*action*/
+
+.action {
+	margin-top: 65px;
+	margin-bottom: 45px;
+	background: url(/home/yulia/git/maket/img/крісло5.png)  no-repeat center center;
+	background-size: cover;
+	padding-top: 75px;
+	padding-bottom: 40px;
+ }
+
+ .action-top {
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+
+}
+.action-price-top {
+	background: #ffffff;
+	width: 150px;
+	border: none;
+	border-radius: 50%;
+	padding-top: 25px;
+	padding-bottom: 35px;
+	text-align: center;
+
+	
+}
+
+.actiontwo-price-top {
+	flex-basis: 47%;
+	
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.old-price {
+	text-decoration: line-through;
+	font-size: 18px;
+	color: rgba(30,30,30,255);
+
+}
+.new-price {
+	color: rgba(208,69,69,255);
+	font-size: 30px;
+	border-top: 1px solid rgba(156,156,156,255);
+	padding-top: 7px;
+	font-weight: bold;
+
+}
+
+ .action-top-order {
+ 	display: flex;
+ 	flex-direction: column;
+}
+
+
+.action-title {
+	line-height: 35px;
+	text-align: right;
+	
+}
+.action-title img {
+	position: relative;
+    bottom: -3px;
+  }
+
+.action-title h2 {
+	font-size: 55px;
+	margin: 0;
+ }
+
+.action-subtitle {
+    font-size: 28px;
+}
+	
+.gift {
+	color: rgba(104,176,201,255);
+	font-size: 25px;
+	margin-left: 7px;
+    font-weight: bold;
+    margin-right: 75px;
+}
+
+.action-order {
+	color: rgba(104,176,201,255);
+	border: 5px solid white;
+	border-radius: 20px;
+	width: 260px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 30px;
+    margin-top: 40px;
+    align-self: center;
+
+}
+
+.action-order-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 30px;
+  }
+ .calendar {
+	position: relative;
+	padding-left: 12px; 
+	padding-right: 12px;
+ }
+
+.fourth-number {
+	color: rgba(255,255,255,255);
+	font-size: 30px;
+	position: absolute;
+    right: 30px;
+    bottom: 5px;
+  }
+
+.action-order p {
+	text-align: left;
+ }
+ 
+.action-btn {
+	font-weight: bold;
+	padding: 15px 60px;
+	font-size: 16px;
+}
+
+
+/* statistics */
+
+.statistics-item {
+
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 0;
+
+	
+}
+
+.statistics-item li {
+     background: url(/home/yulia/git/maket/img/іконка.png) no-repeat;
+     background-position: center top 5px; 
+     line-height: 20px;
+    
+    
+}
+.exposition {
+	font-size: 18px;
+	color: rgba(83,83,83,255);
+	padding: 0;
+	text-align: center;
+	
+}
+.number {
+	font-size: 48px;
+	color: 	rgba(104,176,201,255);
+	text-align: center;
+
+}
+
+/*product-certification*/
+
+.certification {
+	background-color: white;
+	padding-top: 75px;
+	padding-bottom: 85px;
+	margin-top: 60px;
+}
+
+.certification-title {
+	text-align: center;
+	font-size: 36px;
+	color: rgba(83,83,83,255);
+	padding-bottom: 80px;
+	margin: 0;
+}
+.product-certification-subtitle {
+   display: inline-block;
+   font-size: 22px;
+   color: rgba(104,176,201,255);
+   margin: 0;
+   padding-bottom: 15px;
+}
+
+ 
+ .product-certification {
+ 	display: flex;
+ 	justify-content: space-around;
+
+ }
+ .certification-details p {
+ 	font-size: 18px;
+ 	color: rgba(50,50,50,255);
+    padding-bottom: 8px;
+ 	
+ 	}
+.certification-details img {
+	padding-right: 15px;
+	position: relative;
+	top: 3px;
+}
+
+ .certification-img img {
+ 	border: 2px solid black;
+ }
+
+
+/*properties*/
+.properties-chairs {
+	padding-top: 90px;
+	padding-bottom: 70px;
+}
+.properties {
+	display: flex;
+	justify-content: center;
+
+	
+	border: 1px solid red;
+}
+.properties h4 {
+	font-size: 20px;
+	color: rgba(104,176,201,255);
+	margin: 0;
+}
+.properties p {
+	color: rgba(96,96,96,255);
+	line-height: 17px;
+}
+.properties-container {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+.properties-arrow {
+	display: flex;
+	align-items: flex-start;
+	
+
+}
+.properties-left {
+	text-align: right;
+}
+
+
+.arrow-one {
+	
+	
+}
+
+
+/*action-bottom*/
+
+.action-bottom {
+	background: url(/home/yulia/git/maket/img/крісло7.png)  no-repeat center;
+	background-size: cover;
+	padding-top: 60px;
+	padding-bottom: 70px;
+
+}
+.action-main {
+	display: flex;
+	justify-content: space-around;
+}
+.action-price-bottom {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 160px;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 30px;
+
+}
+
+.price-bottom {
+	padding-top: 20px;
+	flex-basis: 34%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	
+}
+.action-price-bottom h5 {
+	color: rgba(104,176,201,255);
+	font-size: 17px;
+	margin: 0;
+	
+}
+.old-price-bottom {
+	font-size: 16px;
+	text-decoration: line-through;
+	color: rgba(30,30,30,255);
+	margin: 0;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	
+
+}
+.new-price-bottom {
+	font-size: 25px;
+	color: rgba(208,69,69,255);
+	border-top: 1px solid rgba(156,156,156,255);
+	padding-top: 5px;
+	font-weight: bold;
+	
+}
+.form-bottom-arrow {
+	display: flex;
+	
+}
+.action-bottom-arrow {
+	align-self: center;
+	padding-left: 25px;
+	
+
+}
+
+.form-bottom p {
+	font-size: 20px;
+	color: rgba(83,83,83,255);
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 10px;
+	line-height: 25px;
+
+}
+.form-bottom-subtitle {
+	color: rgba(104,176,201,255);
+	font-size: 20px;
+	background: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.form-bottom form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 35px;
+}
+
+
+
+
+
+/*difference*/
+
+.difference {
+	padding-top: 60px;
+	padding-bottom: 65px;
+}
+.difference-container {
+	display: flex;
+	flex-direction: column;
+}
+.difference-title {
+	display: flex;
+	font-size: 22px;
+	justify-content: center;
+	padding-left: 30px;
+}
+
+.ordinary {
+	text-align: right;
+	color: rgba(83,83,83,255);
+	
+}
+.frameless {
+	color: rgba(104,176,201,255);
+	padding-left: 40px;
+}
+
+.difference-chairs {
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+.difference-chairs p {
+	font-weight: bold;
+	line-height: 18px;
+	font-size: 15px;
+	
+}
+.ordinary-chairs {
+	
+	color: rgba(147,147,147,255);
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	
+}
+.difference-ordinary-chairs {
+	display: flex;
+	align-items: center;
+	align-self: flex-end;
+	justify-content: space-around;
+}
+.difference-ordinary-chairs p {
+	margin-right: 20px; 
+}
+
+.arrow-difference {
+	align-self: flex-start;
+}
+
+.frameless-chairs {
+	
+	color: rgba(104,176,201,255);
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	
+}
+.difference-frameless-chairs {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	align-self: flex-start;
+	
+}
+.difference-frameless-chairs p {
+	margin-left: 20px;
+}
+
+
+/*superscription*/
+
+.superscription {
+	background: #edf4f8;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+.superscription-chairs p {
+	font-size: 16px;
+	color: rgba(83,83,83,255);
+}
+.superscription-chairs h4 {
+	font-size: 20px;
+	color: rgba(104,176,201,255);
+	margin: 0;
+	padding-bottom: 30px;
+}
+.btn-superscription {
+	padding: 15px 50px;
+}
+.superscription-container {
+	display: flex;
+	justify-content: flex-end;
+
+
+
+}
+/*footer*/
+
+.footer {
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+
+.footer-chairs {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-chairs a {
+	color: rgba(104,176,201,255);
+	font-size: 14px;
+}
+.footer-chairs p {
+	color: rgba(80,80,80,255);
+	font-size: 14px;
+}
+/*callback*/
+
+.callback, .completed {
+	display: none;
+	position: absolute;
+	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
+.callback::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0a2630;
+  opacity: .8;
+  z-index: 1;
+}
+
+.completed-show, .callback-show {
+	display: block;
+	position: fixed;
+}
+
+.callback-form, .application{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	position: relative;
+ 	margin: 100px auto;
+    z-index: 2;
+}
+.callback-form img, .application img {
+	cursor: pointer;
+  	align-self: flex-end;
+}
+.form-callb {
+	margin-top: 10px;
+}
+.callback-title, .completed-title {
+	font-size:  20px;
+	color: rgba(88,146,166,255);
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+.callback-subtitle, .completed-subtitle {
+	font-size: 13px;
+	color: rgba(0,0,0,255);
+}
+/*completed*/
+
+
+
+
+.completed-application {
+	margin-bottom: 50px;
+	background: white;
+    padding-bottom: 35px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+	border: none;
+	margin-top: 10px;
+	
+}
+
+.completed::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0a2630;
+  opacity: .8;
+  z-index: 1;
+}
+
